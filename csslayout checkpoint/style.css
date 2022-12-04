@@ -1,0 +1,112 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+    
+
+
+.introduction p{
+    line-height: 4;
+}
+.main h1{
+    color:#00b39b; ;
+    font-weight: 100;
+}
+.patients{
+    background-color: #3e83e0;
+    
+}
+.doctor{
+    background-color: #3e83e0;
+}
+.clinics{
+    background-color: #1b2735;
+}
+.main2{
+    height: 300px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: ;
+}
+.boxes{
+    height: 300px;
+    border-radius: 7px;
+    padding: 2O;
+    color: white;
+    
+    
+}
+
+.boxes p{
+    font-size: 20px;
+}
+select{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+option{
+    color: black;
+}
+.main2{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+   
+.main3{
+    background-color: #dff8f6;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.plateform{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 700px;
+    margin: auto;
+}
+.footer h1{
+    color: #00b39b;
+    font-weight: 100;
+}
+.footer p{
+    color: gray;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+}
+.packs{
+    background-color: white;
+    border-radius: 5px;
+}
+.translate{
+    transform: translateY(20px);
+}
+
+
+@media (max-width:500px) {
+    .introduction
+
+    }
+        display: grid;
+        grid-template-columns: 100%;
+  }
+  .main2 h1{
+    text-align: center;
+  }
+
+    
